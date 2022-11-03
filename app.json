@@ -2,6 +2,7 @@
   "expo": {
     "name": "mobile-copa",
     "slug": "mobile-copa",
+    "scheme": "mobile-copa",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

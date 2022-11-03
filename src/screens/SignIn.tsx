@@ -9,8 +9,6 @@ import { UseAuth } from '../hooks/useAuth';
 export function SignIn() {
   const { signIn, user } = UseAuth();
 
-  console.log('Dados ==> ', user);  
-
   return (
     <Center flex={1} bgColor="gray.900" p={7}>
       <Logo width={212} height={40}/>
@@ -24,7 +22,8 @@ export function SignIn() {
       />
 
       <Text color="white"  textAlign="center" mt={4}>
-        Não utilizamos nenhuma informação além {'\n'} do seu e-mail para criação de sua conta.
+        Não utilizamos nenhuma informação além {'\n'} 
+        do seu e-mail para criação de sua conta.
       </Text>
     </Center>
   );
